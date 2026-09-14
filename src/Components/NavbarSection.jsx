@@ -16,7 +16,7 @@ const NavbarSection = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <div className="flex justify-between items-center px-4 sm:px-6 lg:px-10 py-3 sm:py-4 lg:py-5 border-b border-gray-200">
+      <div className="animate__animated animate__fadeInDown animate__delay-0.5s flex justify-between items-center px-4 sm:px-6 lg:px-10 py-3 sm:py-4 lg:py-5 border-b border-gray-200">
         <div className="flex gap-4 sm:gap-6 lg:gap-10 items-center flex-1">
           <div className="flex gap-2 items-center">
             <Image

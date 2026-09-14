@@ -14,6 +14,7 @@ const HomepageSection = () => {
         backgroundPosition: "center",
         height: "91dvh",
       }}
+      className="animate__animated animate__fadeIn animate__delay-1s"
     >
       <div className="flex flex-col items-center justify-center h-full text-center text-white">
         <Chip
