@@ -7,6 +7,10 @@ import { FaUserEdit } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { RiNotificationFill } from "react-icons/ri";
 import { HiMenu, HiX } from "react-icons/hi";
+import { IoIosHome } from "react-icons/io";
+import { FaMapLocation } from "react-icons/fa6";
+import { MdOutlineCategory } from "react-icons/md";
+import { BsExclamationSquareFill } from "react-icons/bs";
 
 const NavbarSection = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,27 +38,31 @@ const NavbarSection = () => {
           </div>
           <div className="flex max-[1162px]:hidden  gap-10 ">
             <Link
-              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base"
+              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base flex items-center gap-1"
               href="/"
             >
+              <IoIosHome />
               Home
             </Link>
             <Link
-              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base"
+              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base flex items-center gap-1"
               href="#"
             >
+              <FaMapLocation />
               Explore By Locations
             </Link>
             <Link
-              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base"
+              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base flex items-center gap-1"
               href="#"
             >
+              <MdOutlineCategory />
               Explore By Categories
             </Link>
             <Link
-              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base"
+              className="text-gray-500 hover:text-pink-700 font-semibold hover:underline text-xs sm:text-sm lg:text-base flex items-center gap-1"
               href="#"
             >
+              <BsExclamationSquareFill />
               About Us
             </Link>
           </div>
